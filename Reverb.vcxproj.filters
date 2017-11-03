@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{bdd1600b-f277-467b-8323-4e69e45ad94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FEC0BAB1-69F8-4302-8BA8-1EA8C70CD714}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9264A5E2-83FB-4713-B4CC-33708DDD1E7D}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RackAFXDLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reverb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pluginobjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CombFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Delay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DelayAPF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LPFCombFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OnePoleLPF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dSum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KRT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Loop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Comb_APF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ER.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DelayLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModDelayModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WTOscillator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DDLModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pluginconstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RackAFXDLL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Reverb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CombFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Delay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DelayAPF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LPFCombFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OnePoleLPF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dSum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KRT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Loop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Comb_APF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ER.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DelayIt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DelayLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lookuptables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModDelayModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WTOscillator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDLModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\knobvst.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Reverb.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RackAFX.uidesc">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

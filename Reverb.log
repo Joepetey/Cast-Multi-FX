@@ -1,0 +1,7 @@
+﻿  RackAFXDLL.cpp
+  Reverb.cpp
+  Generating Code...
+c:\users\joepetey\desktop\mmi projects\tappedreverb\reverb.cpp(328): warning C4715: 'CReverb::calculateDelayOffset': not all control paths return a value
+c:\users\joepetey\desktop\mmi projects\tappedreverb\reverb.cpp(1684): warning C4715: 'CReverb::processAudioFrame': not all control paths return a value
+     Creating library C:\Users\Joepetey\AppData\Roaming\RackAFX\PlugIns\Reverb.lib and object C:\Users\Joepetey\AppData\Roaming\RackAFX\PlugIns\Reverb.exp
+  Reverb.vcxproj -> C:\Users\Joepetey\AppData\Roaming\RackAFX\PlugIns\Reverb.dll
